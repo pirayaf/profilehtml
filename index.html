@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> <!--ดึงข้อมูลเมต้าประเภทต่างๆ-->
+    <title>Piraya Profile Site</title> <!--ชื่อบนแท็บ-->
+    <!--Reference Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Aclonica'rel='stylesheet'> <!--อวค์ประกอบlink-->
+    <!--Reference Social Media Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+
+    <!--External CSS => 3rd Priority-->
+    <link rel="stylesheet" href="css/index.css"> <!--ลิงค์สำหรับการเชื่อมไปในCSS-->
+
+    <!--Add Favicon Icon => https://www.favicon.cc/-->
+    <link rel="icon" href="favicon.ico">
+
+    <!--Internal CSS => 2nd Priority-->
+    <!--<style>
+        /* CSS Comments */
+        /* CSS Syntax => Selector { property: value; } */
+        /* (1) Tag Selector */
+    </style>-->
+
+</head> <!--ส่วนหลังบ้านของเว็บไซต์-->
+<body> <!--ทั้งตัวของเว็บไซต์-->
+    <!--Header-->
+    <!--Inline CSS => 1st Priority-->
+    <!--The Content Division element-->
+    <div class="top-container"> <!--กำหนดสัดส่วนในHTML-->
+    <h1>Profile</h1> <!--หัวเรื่องการบอกขนาดของตัวอักษรโดยผ่านด้วยคำสั้ง h1 และ h1 จะมีขนาดตัวอักษรใหญ่ที่สุด-->
+    <h2>I'm <span class="name">Piraya</span> </h2> <!--spanเลือกตัวอักษรนั้นให้มีขีดเส้นใต้-->
+    <h4><i>"Love myself."</i></h4>    <!--เลือกตัวอักษรนั้นให้ตัวเอียง-->
+    </div>  <!--สิ้นสุดกำหนดสัดส่วนในHTML-->
+    <hr> <!--คำสั่งขีดเส้นใต้-->
+
+    <!--Menu-->
+    <div class="table-menu"> <!--ชื่อของกลุ่มของ table-menu-->
+    <table> <!--แบ่งสัดส่วนรูปแบบตาราง-->
+        <tr>
+            <td> <!--เลือกคอลัมน์-->
+                <h3><a href="index.html">Profile</a></h3> <!--link htmlของProflie-->
+            </td>
+            <td>
+                <h3><a href="experiences.html">Experiences</a></h3> <!--link htmlของExperiences-->
+            </td>
+            <td>
+                <h3><a href="abilities.html">Abilities</a></h3> <!--link htmlของAbilities-->
+            </td>
+            <td>
+                <h3><a href="projects.html">Projects</a></h3> <!--link htmlของProjects-->
+            </td>
+            <td>
+                <h3><a href="contact.html">Contact</a></h3> <!--link htmlของContact-->
+            </td>
+        </tr>
+    </table> 
+    </div>
+    
+    <hr>
+    <div class="table-content">
+    <table>
+        <tr>
+            <th><h2 >About me</h2> <!--หัวเรื่องของคอลัมน์ -->
+                <p class="p-Aboutme">   
+                    I am a Lecturer, Blogger, Traveler, Software Developer, and Investor 
+                    who likes to read new articles all the time, I have a dream to create 
+                    a Creative Product that can change the world for the better. 
+                    And want to take pictures of tourist attractions around the world, 
+                    teaching, sharing, exchanging knowledge, and developing Websites, 
+                    Mobile Apps, Games, etc. that are useful to the world.
+                </p> <!--พารากราฟ-->
+                <p>Website: <a href="https://www.glurgeek.com/">GlurGeek.com</a></p>
+                <p>Email: <a href="mailto: khakrathok.2544@gmail.com">khakrathok.2544@gmail.com</a></p>
+            </th>
+            <th>
+                <!--Crop Circle Image: https://crop-circle.imageonline.co/-->
+                <p><img src="images/RJ.png" alt="rj" style="width: 60%;"></p> <!--ปรับขนาดของตัวอักษร-->
+                        <!--src = ตำแหน่งของรูปภาพ--> 
+            </th>
+            
+            <th id="th-Details"><h2>Details</h2>
+                <p>Name:</p>
+                    <p class="p-Name">Piraya Khakrathok</p>
+                <p>Location:</p>
+                    <p class="p-Name">Thailand</p>
+                    <p>Social Media:</p>
+                    <p>
+                        <a href="https://www.facebook.com/ajnesttheseries" class="fa fa-facebook-square" style="font-size: 40px; color: rgb(7, 114, 255);"></a>
+                        <a href="https://www.instagram.com/ajnesttheseries/" class="fa fa-instagram" style="font-size: 40px; color: brown;"></a>
+                        <a href="https://twitter.com/ajnesttheseries/" class="fa fa-twitter" style="font-size: 40px; color: rgb(63, 185, 255);"></a>
+                    </p>
+                    <!--<a> = ที่อยู่ของลิ้ง-->
+            </th>
+        </tr>
+    </table>
+    </div>
+    <hr>
+    <p class="p-Footer">© 2021 Aj. NesT the Series</p>
+</body>
+</html>

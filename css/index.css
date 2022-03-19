@@ -1,0 +1,42 @@
+/*CSS file*/
+/* (1) Tag Selector*/
+
+body{
+    background-color: aqua; /*ใส่สีพื้นหลังทั้งหมดของหน้าเว็บไซต์*/
+
+} 
+
+h1{ /*การปรับแต่งของส่วนh1*/
+    text-align: center;  /*จัดตัวอักษรให้อยู่ตรงกลาง*/
+    font-family: cursive; /*การใส่ฟอตตามที่ชอบ*/
+    background-color: brown; /*ใส่สีพื้นหลังของh1*/
+}
+
+h2{ /*การปรับแต่งของส่วนh2*/
+    
+    text-align: center; /*จัดตัวอักษรให้อยู่ตรงกลาง*/
+    background-color: darkcyan;  /*ใส่สีพื้นหลังของh2*/
+}
+h4{ /*การปรับแต่งของส่วนh4*/
+    text-align: center; /*จัดตัวอักษรให้อยู่ตรงกลาง*/
+    font-family: Aclonica; /*การใส่ฟอตตามที่ชอบ*/
+    font-weight: normal;  /*นำ้หนักของตัวอักษร*/
+
+
+}
+table{
+    width: 100%; /*ขนาดของตัวอักษร*/
+}
+th{
+    width: 33.33%;  /*ขนาดของตัวอักษร*/
+    vertical-align: top; /*การวางตำแหน่งของแนวตั้ง*/
+}
+/*(2) Class Seletor*/
+.p-Aboutme{ /*จะใช้.ก่อนตัวแปร เช่น.p-Aboutme ใช้กับClass Selector */
+    font-weight: normal; /*ความหนาของฟ้อนต์*/
+    text-align: justify; /*ตำแหน่งของตัวอักษร*/
+}
+/*(3) Class Seletor*/
+#th-Details{ /*ใช้กับ Id Selector*/
+    text-align: left; /*ตำแหน่งของตัวอักษร*/
+}
